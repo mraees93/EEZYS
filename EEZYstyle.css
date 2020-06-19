@@ -1,0 +1,354 @@
+body{
+    background-color: black;
+    border-style: solid;
+    border-color:yellow;
+    border-width:0.5px;
+    max-height:85%; 
+}
+
+.head img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+
+.head h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight:bold;
+    font-family: 'roboto', Helvetica, sans-serif;
+    font-style: initial;
+    font-stretch: absolute;
+    color:red;
+}
+h3{
+    font-size: 30px;
+    font-weight:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-stretch: absolute;
+    color:white;
+    text-align: center;
+}
+h5{
+    font-size: 25px;
+    font-weight:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-stretch: absolute;
+    color:white;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-stretch: absolute;
+    color:white;
+    
+}
+label{
+    font-size: 20px;
+    font-weight:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-stretch: absolute;
+    color:white;
+}
+
+
+table {
+    border-collapse:collapse;
+    text-align: center;
+    
+}
+table, tr, th, td {
+    border:solid red;
+    color:white;
+    text-align:center;
+    margin: 0 auto;
+    table-layout: auto; width: 30%;
+}
+  
+/* to style the unordered lists */
+.specialties{
+    font-size: 24px;
+    font-weight:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-stretch: absolute;
+    color:white;
+    
+    display:table;
+    margin: 0 auto;
+} 
+
+  
+ 
+/* to style the top area */
+.headImg {
+    height: 630px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/gym10.jpg");
+    background-size: cover;
+    background-position: center;
+    margin:auto;
+    border: 1px solid yellow;
+}
+ 
+ 
+  /* NAVIGATION */
+
+.nav-wrapper {
+    height:0;
+}
+
+  nav {
+    width: 80%;
+    height: 0;
+    margin: auto;
+    background: black;
+    
+    
+}
+
+
+nav a.active {
+    background-color: black;
+    color:yellow;
+}
+  nav ul {
+    list-style: none;
+    text-align: right;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    font-family:    Arial, Helvetica, sans-serif;  
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: red;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: red;
+  }
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: yellow;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+/* for about page */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+.footer{
+    background-color: rgb(114, 111, 111);
+    height:150px;
+    color:white;
+}
+
+.abtImg {
+    height: 91.5vh;
+}
+
+#abtImg2{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    height:100vh;
+    
+    border-style:solid;
+    border-radius: 0;
+    border-color: yellow;
+    border-width:1px;
+}
+
+.conDiv {
+    height:50vh;
+    text-align:center;
+    width:100%;
+}
+
+#conImg{
+    position:absolute;
+    width: 50%;
+    height:45vh;
+    text-align:center;
+    display:block;
+    margin:20px auto 0 auto;
+    padding:0 250px 50px 350px;
+    border-style:solid;
+    border-radius:3%;
+    border-color: black;
+    border-width:1px;
+}
+/* to style the contact form */
+input  {
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+.btn{
+    border: yellow 2px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.mySlides {
+    display: none;
+}
+#imgStyle{
+    vertical-align: middle;
+    width: 100%;
+    max-width:500px;
+    max-height:300px;
+    border-style:solid;
+    border-radius:3%;
+    border-color: yellow;
+    border-width:1px;
+}
+
+
+/* for the image slideshow */
+.slideshow-container {
+    max-width: 450px;
+    position: relative;
+    margin: auto;
+    padding:0;
+}
+.text {
+    color:white;
+    font-size: 24px;
+    position: absolute;
+    padding: 8px 12px;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color:white;
+    font-size: 32px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dotstyle{
+    text-align:center;
+}
+.active{
+    background-color:darkgray;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity:.4}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+/* style all font icons */
+
+.fa {
+    padding: 5px;
+    font-size:30px;
+    width:35px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+
+.fa:hover {
+    opacity:0.7;
+}
+
+.fa-facebook {
+    background: rgb(3, 34, 102);
+    color: white;
+}
+
+.fa-twitter {
+    background: rgb(91, 124, 182);
+    color:white;
+}
+
+.fa-reddit {
+    background: red;
+    color: white;
+}
+
+.fa-whatsapp {
+    background:green;
+    color: white;
+}
+.fa-instagram {
+    background: purple;
+    color: white;
+}
+
+.smIcons a {
+    position:auto;
+    margin: 13px 25px;
+}
