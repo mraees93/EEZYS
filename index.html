@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>EEZYS FITNESS</title>
+	
+	<!-- link for the social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- for the roboto font -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<!-- for navbar styling -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="EEZYstyle.css">
+	<link rel = "icon" href = "favicon.ico">
+	
+</head>
+<body>
+	 
+	<div class = "headImg">
+		<div class = "nav-wrapper">
+		<div class="container" id = "myNav">
+		<nav id="myNav" class="stroke">
+			<ul>
+				<li><a href="EEZYS.html">HOME</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="Pricelist.html">PRICELIST</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+			</ul>	
+		</nav>
+		<div class="container-fluid head">
+			<img src="images/logo.jpg"> <h1>EEZYS FITNESS</h1>
+		</div>
+		<br><br><br>
+		<div>
+			<h3>Was R500 p/session now its R120 p/session with the BEST COACH in Cape Town</h3>
+		</div>
+	</div>
+	</div>
+	</div>
+	
+<br><br><br><br>
+
+
+<div>
+	<ul class="specialties">
+		<li>Weight Loss</li>
+		<li>Functional Fitness/strength(for any sport as well)</li>
+		<li>Boxing/Kickboxing</li>
+		<li>Nutritional advice</li>
+	</ul>
+<div>
+
+
+<br><br><br><br>	
+
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+	<div class="numbertext">1 / 4</div>
+	<img src="images/gym1.jpg" id="imgStyle">
+	<div class="text">Weight Loss</div>
+</div>
+
+<div class="mySlides fade">
+	<div class="numbertext">2 / 4</div>
+	<img src="images/gym2.jpg" id="imgStyle">
+	<div class="text">Nutrutional Advice</div>
+</div>
+
+<div class="mySlides fade">
+	<div class="numbertext">3 / 4</div>
+	<img src="images/gym3.jpg" id="imgStyle">
+	<div class="text">Bodyweight Strength Training</div>
+</div>
+
+<div class="mySlides fade">
+	<div class="numbertext">4 / 4</div>
+	<img src="images/gym6.jpg" id="imgStyle">
+	<div class="text">Strength Training</div>
+</div>
+<br>
+<div class="dotstyle">
+	<span class="dot"></span>
+	<span class="dot"></span>
+	<span class="dot"></span>
+	<span class="dot"></span>
+</div>
+</div>
+
+
+<br><br><br><br>
+
+
+
+<div class = "container-fluid">
+<p>I specialize in training children/adolescents, older adults, pre and post natal, chronic illnesses/diseases, common injuries and special needs.</p>
+<br>
+<p>I offer the training at my home gym, your home or any other location that you feel comfortable will have additional costs.</p>
+<br>
+<p>I offer the outcome and results that you can achieve over time. 8, 12 and 14 session package deals available as well as small group personal training and bootcamp</p>	
+
+<br>
+
+<br>
+<p>Lose weight now or miss out, there is only a limited amount of space available. I can provide a free session if you wish.</p>
+</div>
+
+<br><br>
+
+<div class="footer">
+	<p>Terms and conditions apply</p>
+	<div class = "smIcons">
+        <a href = "#" class = "fa fa-facebook"></a>
+        <a href = "#" class = "fa fa-twitter"></a>
+        <a href = "#" class = "fa fa-reddit"></a>
+        <a href = "#" class = "fa fa-whatsapp"></a>
+        <a href = "#" class = "fa fa-instagram"></a>
+    </div>
+	<copyright><p>&copy;2020</p></copyright>
+	</div>	
+
+<script>
+	
+	var slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
+		setTimeout(showSlides, 2000);
+	}	
+	
+	
+	
+	
+
+</script>
+
+
+</body>
+</html>
